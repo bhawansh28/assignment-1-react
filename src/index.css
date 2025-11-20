@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background: #282c34;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+.load-btn {
+  padding: 10px 20px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.load-btn:hover {
+  background: #357ac9;
+}
+.load-btn, .api-btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+.load-btn {
+  background-color: #4caf50; /* green */
+}
+
+.api-btn {
+  background-color: #2196f3; /* blue */
+}
+
+.load-btn:hover {
+  background-color: #45a049;
+}
+
+.api-btn:hover {
+  background-color: #1976d2;
+}
